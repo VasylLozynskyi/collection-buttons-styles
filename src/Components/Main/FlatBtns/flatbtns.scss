@@ -1,0 +1,180 @@
+#flat {
+  // start style btn
+  .button {
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5),
+      0 1px 2px rgba(0, 0, 0, 0.15);
+    background: -webkit-gradient(
+      linear,
+      50% 0,
+      50% 100%,
+      color-stop(0, #fbfbfb),
+      color-stop(100%, #e1e1e1)
+    );
+    background: -webkit-linear-gradient(top, #fbfbfb, #e1e1e1);
+    background: linear-gradient(to bottom, #fbfbfb, #e1e1e1);
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #d4d4d4;
+    height: 32px;
+    line-height: 30px;
+    padding: 0 25px;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: Arial, "Lucida Grande", sans-serif;
+    color: #000000;
+    text-shadow: 0 1px 1px #fff;
+    text-decoration: none;
+    text-align: center;
+    &:active {
+      box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px 0 #fff;
+      text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+      background: #eee;
+      color: #bbb;
+    }
+  }
+  // end
+
+  .button-rounded {
+    border-radius: 3px;
+  }
+
+  .button-pill {
+    border-radius: 50px;
+  }
+
+  .button-flat {
+    box-shadow: none;
+    -webkit-transition-property: background;
+    transition-property: background;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    background: #eee;
+    border: none;
+    text-shadow: none;
+    &:active {
+      -webkit-transition-duration: 0s;
+      transition-duration: 0s;
+      background: #eee;
+      color: #bbb;
+    }
+    &:focus,
+    &:hover {
+      background: #fbfbfb;
+    }
+  }
+
+  .button-flat-primary {
+    box-shadow: none;
+    -webkit-transition-property: background;
+    transition-property: background;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    background: #00a1cb;
+    color: #fff;
+    text-shadow: none;
+    border: none;
+    &:focus,
+    &:hover {
+      color: #fff;
+      background: #00b5e5;
+    }
+    &:active {
+      -webkit-transition-duration: 0s;
+      transition-duration: 0s;
+      background: #1495b7;
+      color: #00647f;
+    }
+  }
+
+  .button-flat-action {
+    box-shadow: none;
+    -webkit-transition-property: background;
+    transition-property: background;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    background: #7db500;
+    color: #fff;
+    text-shadow: none;
+    border: none;
+    &:focus,
+    &:hover {
+      color: #fff;
+      background: #8fcf00;
+    }
+    &:active {
+      -webkit-transition-duration: 0s;
+      transition-duration: 0s;
+      background: #76a312;
+      color: #486900;
+    }
+  }
+
+  .button-flat-highlight {
+    box-shadow: none;
+    -webkit-transition-property: background;
+    transition-property: background;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    background: #f18d05;
+    color: #fff;
+    text-shadow: none;
+    border: none;
+    &:focus,
+    &:hover {
+      color: #fff;
+      background: #fa9915;
+    }
+    &:active {
+      -webkit-transition-duration: 0s;
+      transition-duration: 0s;
+      background: #d8891e;
+      color: #a66103;
+    }
+  }
+
+  .button-flat-caution {
+    box-shadow: none;
+    -webkit-transition-property: background;
+    transition-property: background;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    background: #e54028;
+    color: #fff;
+    text-shadow: none;
+    border: none;
+    &:focus,
+    &:hover {
+      color: #fff;
+      background: #e8543f;
+    }
+    &:active {
+      -webkit-transition-duration: 0s;
+      transition-duration: 0s;
+      background: #cd5240;
+      color: #ac2815;
+    }
+  }
+
+  .button-flat-royal {
+    box-shadow: none;
+    -webkit-transition-property: background;
+    transition-property: background;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    background: #87318c;
+    color: #fff;
+    text-shadow: none;
+    border: none;
+    &:focus,
+    &:hover {
+      color: #fff;
+      background: #99389f;
+    }
+    &:active {
+      -webkit-transition-duration: 0s;
+      transition-duration: 0s;
+      background: #764479;
+      color: #501d53;
+    }
+  }
+}

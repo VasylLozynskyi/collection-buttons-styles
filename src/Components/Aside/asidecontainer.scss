@@ -1,0 +1,39 @@
+.aside-container {
+  width: 25%;
+  min-width: 125px;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  -webkit-box-shadow: inset -10px 0px 5px -5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset -10px 0px 5px -5px rgba(0, 0, 0, 0.3);
+  box-shadow: inset -10px 0px 5px -5px rgba(0, 0, 0, 0.3);
+  border-right: 1px solid rgb(0, 0, 0);
+  padding: 30px 10px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: #e6dada;;
+  & >div a{
+    position: relative;
+    display: inline;
+    color: rgb(99, 100, 14);
+    transition: 0.5s;
+    font-size: 24px;
+    &:hover{
+      color: rgb(139, 141, 3);
+      text-shadow: slategrey 1px 1px 1px;
+    }
+    &::after{
+      content: "";
+      width: 105%;
+      height: 1px;
+      position: absolute;
+      background-color: rgb(99, 100, 14);
+      bottom:-2px;
+      left: 0;
+      &:hover{
+        background-color: rgb(139, 141, 3);
+      }
+    }
+  }
+}
